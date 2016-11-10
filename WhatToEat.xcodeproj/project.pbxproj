@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4407EFAA1DD40B1500132743 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4407EFA91DD40B1500132743 /* MapKit.framework */; };
+		4407EFAD1DD40B5C00132743 /* IconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFAC1DD40B5C00132743 /* IconLabel.swift */; };
+		4407EFCA1DD45D5E00132743 /* v1API_structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFC61DD45D5E00132743 /* v1API_structs.swift */; };
+		4407EFCB1DD45D5E00132743 /* v1API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFC71DD45D5E00132743 /* v1API.swift */; };
+		4407EFCC1DD45D5E00132743 /* v1API_parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFC81DD45D5E00132743 /* v1API_parsers.swift */; };
+		4407EFCF1DD45D6500132743 /* http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFCD1DD45D6500132743 /* http.swift */; };
+		4407EFD11DD4603700132743 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFD01DD4603700132743 /* ResultViewController.swift */; };
 		44873DC01DD40A18007BBBD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44873DBF1DD40A18007BBBD3 /* AppDelegate.swift */; };
 		44873DC21DD40A18007BBBD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44873DC11DD40A18007BBBD3 /* ViewController.swift */; };
 		44873DC51DD40A18007BBBD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44873DC31DD40A18007BBBD3 /* Main.storyboard */; };
 		44873DC71DD40A18007BBBD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44873DC61DD40A18007BBBD3 /* Assets.xcassets */; };
 		44873DCA1DD40A18007BBBD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44873DC81DD40A18007BBBD3 /* LaunchScreen.storyboard */; };
+		448EEAA21DD47537008B64BE /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448EEAA11DD47537008B64BE /* FlatButton.swift */; };
+		448EEAA41DD4772F008B64BE /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448EEAA31DD4772F008B64BE /* UIView+ext.swift */; };
+		44BB08C21DD4F5BB004E2069 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB08C11DD4F5BB004E2069 /* CardView.swift */; };
+		44D35909C4C354407EC2D107 /* Pods_WhatToEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67F53DBBDF1D6B3228BFB4 /* Pods_WhatToEat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1ACC4EFD3DD7FDE3DA16F703 /* Pods-WhatToEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToEat.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatToEat/Pods-WhatToEat.release.xcconfig"; sourceTree = "<group>"; };
+		4407EFA91DD40B1500132743 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4407EFAC1DD40B5C00132743 /* IconLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconLabel.swift; sourceTree = "<group>"; };
+		4407EFC41DD45CD400132743 /* ShakeYourFoodAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShakeYourFoodAPI.framework; path = "shakeYourFood/build/Debug-iphoneos/ShakeYourFoodAPI.framework"; sourceTree = "<group>"; };
+		4407EFC61DD45D5E00132743 /* v1API_structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API_structs.swift; path = api/v1API_structs.swift; sourceTree = "<group>"; };
+		4407EFC71DD45D5E00132743 /* v1API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API.swift; path = api/v1API.swift; sourceTree = "<group>"; };
+		4407EFC81DD45D5E00132743 /* v1API_parsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API_parsers.swift; path = api/v1API_parsers.swift; sourceTree = "<group>"; };
+		4407EFCD1DD45D6500132743 /* http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = http.swift; path = network/http.swift; sourceTree = "<group>"; };
+		4407EFD01DD4603700132743 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		44873DBC1DD40A18007BBBD3 /* WhatToEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44873DBF1DD40A18007BBBD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44873DC11DD40A18007BBBD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,11 @@
 		44873DC61DD40A18007BBBD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44873DC91DD40A18007BBBD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44873DCB1DD40A18007BBBD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448EEAA11DD47537008B64BE /* FlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatButton.swift; sourceTree = "<group>"; };
+		448EEAA31DD4772F008B64BE /* UIView+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		44BB08C11DD4F5BB004E2069 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5C67F53DBBDF1D6B3228BFB4 /* Pods_WhatToEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatToEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93796C0DB2A3A4EBD922B50B /* Pods-WhatToEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToEat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatToEat/Pods-WhatToEat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4407EFAA1DD40B1500132743 /* MapKit.framework in Frameworks */,
+				44D35909C4C354407EC2D107 /* Pods_WhatToEat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4407EFAB1DD40B4F00132743 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4407EFAC1DD40B5C00132743 /* IconLabel.swift */,
+				448EEAA11DD47537008B64BE /* FlatButton.swift */,
+				448EEAA31DD4772F008B64BE /* UIView+ext.swift */,
+				44BB08C11DD4F5BB004E2069 /* CardView.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		4407EFC91DD45D5E00132743 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4407EFC61DD45D5E00132743 /* v1API_structs.swift */,
+				4407EFC71DD45D5E00132743 /* v1API.swift */,
+				4407EFC81DD45D5E00132743 /* v1API_parsers.swift */,
+			);
+			name = API;
+			path = ../shakeYourFood/shakeYourFood;
+			sourceTree = "<group>";
+		};
+		4407EFCE1DD45D6500132743 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4407EFCD1DD45D6500132743 /* http.swift */,
+			);
+			name = Network;
+			path = ../shakeYourFood/shakeYourFood;
+			sourceTree = "<group>";
+		};
 		44873DB31DD40A18007BBBD3 = {
 			isa = PBXGroup;
 			children = (
 				44873DBE1DD40A18007BBBD3 /* WhatToEat */,
 				44873DBD1DD40A18007BBBD3 /* Products */,
+				B73691F6A5417694F07C31CA /* Pods */,
+				FC478C272EDACB1CBF79400F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +114,37 @@
 		44873DBE1DD40A18007BBBD3 /* WhatToEat */ = {
 			isa = PBXGroup;
 			children = (
+				4407EFCE1DD45D6500132743 /* Network */,
+				4407EFC91DD45D5E00132743 /* API */,
+				4407EFAB1DD40B4F00132743 /* Components */,
 				44873DBF1DD40A18007BBBD3 /* AppDelegate.swift */,
 				44873DC11DD40A18007BBBD3 /* ViewController.swift */,
+				4407EFD01DD4603700132743 /* ResultViewController.swift */,
 				44873DC31DD40A18007BBBD3 /* Main.storyboard */,
 				44873DC61DD40A18007BBBD3 /* Assets.xcassets */,
 				44873DC81DD40A18007BBBD3 /* LaunchScreen.storyboard */,
 				44873DCB1DD40A18007BBBD3 /* Info.plist */,
 			);
 			path = WhatToEat;
+			sourceTree = "<group>";
+		};
+		B73691F6A5417694F07C31CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93796C0DB2A3A4EBD922B50B /* Pods-WhatToEat.debug.xcconfig */,
+				1ACC4EFD3DD7FDE3DA16F703 /* Pods-WhatToEat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC478C272EDACB1CBF79400F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4407EFC41DD45CD400132743 /* ShakeYourFoodAPI.framework */,
+				4407EFA91DD40B1500132743 /* MapKit.framework */,
+				5C67F53DBBDF1D6B3228BFB4 /* Pods_WhatToEat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44873DCE1DD40A18007BBBD3 /* Build configuration list for PBXNativeTarget "WhatToEat" */;
 			buildPhases = (
+				17F441414E60EC567374CE8A /* [CP] Check Pods Manifest.lock */,
 				44873DB81DD40A18007BBBD3 /* Sources */,
 				44873DB91DD40A18007BBBD3 /* Frameworks */,
 				44873DBA1DD40A18007BBBD3 /* Resources */,
+				A5EDA5059B284F678A30F164 /* [CP] Embed Pods Frameworks */,
+				93185149268CB9A0C2E13480 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +184,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = P92HHTP8SE;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -132,13 +223,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17F441414E60EC567374CE8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93185149268CB9A0C2E13480 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatToEat/Pods-WhatToEat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5EDA5059B284F678A30F164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatToEat/Pods-WhatToEat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44873DB81DD40A18007BBBD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448EEAA21DD47537008B64BE /* FlatButton.swift in Sources */,
 				44873DC21DD40A18007BBBD3 /* ViewController.swift in Sources */,
+				44BB08C21DD4F5BB004E2069 /* CardView.swift in Sources */,
 				44873DC01DD40A18007BBBD3 /* AppDelegate.swift in Sources */,
+				4407EFCC1DD45D5E00132743 /* v1API_parsers.swift in Sources */,
+				448EEAA41DD4772F008B64BE /* UIView+ext.swift in Sources */,
+				4407EFD11DD4603700132743 /* ResultViewController.swift in Sources */,
+				4407EFCA1DD45D5E00132743 /* v1API_structs.swift in Sources */,
+				4407EFCF1DD45D6500132743 /* http.swift in Sources */,
+				4407EFAD1DD40B5C00132743 /* IconLabel.swift in Sources */,
+				4407EFCB1DD45D5E00132743 /* v1API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +405,15 @@
 		};
 		44873DCF1DD40A18007BBBD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93796C0DB2A3A4EBD922B50B /* Pods-WhatToEat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P92HHTP8SE;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WhatToEat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.demo.wte.WhatToEat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.demo.wte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,12 +421,15 @@
 		};
 		44873DD01DD40A18007BBBD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ACC4EFD3DD7FDE3DA16F703 /* Pods-WhatToEat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P92HHTP8SE;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WhatToEat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.demo.wte.WhatToEat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.demo.wte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -300,6 +454,7 @@
 				44873DD01DD40A18007BBBD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

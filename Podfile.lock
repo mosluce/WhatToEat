@@ -1,0 +1,29 @@
+PODS:
+  - DKChainableAnimationKit (2.0.0)
+  - SDCAlertView (7.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (3.0.2)
+  - SVProgressHUD (2.0.3)
+  - SwiftIconFont (2.6.0)
+
+DEPENDENCIES:
+  - DKChainableAnimationKit
+  - SDCAlertView
+  - SDWebImage
+  - SnapKit
+  - SVProgressHUD
+  - SwiftIconFont
+
+SPEC CHECKSUMS:
+  DKChainableAnimationKit: b9e079381d6e059f8a1f969223d16e3970ec3545
+  SDCAlertView: b92fd1f00e522e18a062005e15a16c1e8295c5b5
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwiftIconFont: bbe1f32e1e16bac87dad8566afc80132cb8d072c
+
+PODFILE CHECKSUM: 9785bf611a287f2df58cefca4c2e5580a1feeb2b
+
+COCOAPODS: 1.1.0.rc.2

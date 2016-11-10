@@ -1,0 +1,3 @@
+[submodule "shakeYourFood"]
+	path = shakeYourFood
+	url = https://github.com/JJingLee/shakeYourFood.git
