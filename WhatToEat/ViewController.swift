@@ -73,19 +73,18 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ResultViewCon
             //取消舊的 task
             self.currentTask?.cancel()
             
-            self.currentTask = api.getNearbyRestaurant(Latitude: location.coordinate.latitude, Longitude: location.coordinate.longitude, callback: { (rest, food) in
+            api.getNearbyRestaurant(Latitude: location.coordinate.latitude, Longitude: location.coordinate.longitude, callback: { (rest, food) in
                 SVProgressHUD.dismiss()
                 
-                DispatchQueue.main.sync {
-                    if let rest = rest, let food = food {
-                        self.resultViewController.coordinate = location.coordinate
-                        self.resultViewController.restaurant = rest
-                        self.resultViewController.food = food
-                        
-                        self.showResult()
-                    } else {
-                        AlertController.alert(withTitle: "殘念！", message: "由於城鄉差距(誤)在您的周邊找不到可以吃飯的地方(泣)", actionTitle: "好討厭的感覺啊！", customView: nil)
-                    }
+                
+                if let rest = rest, let food = food {
+                    self.resultViewController.coordinate = location.coordinate
+                    self.resultViewController.restaurant = rest
+                    self.resultViewController.food = food
+                    
+                    self.showResult()
+                } else {
+                    AlertController.alert(withTitle: "殘念！", message: "由於城鄉差距(誤)在您的周邊找不到可以吃飯的地方(泣)", actionTitle: "好討厭的感覺啊！", customView: nil)
                 }
                 
             })
@@ -183,23 +182,21 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ResultViewCon
         SVProgressHUD.show(withStatus: "等我傳一下資料喔")
         
         if let coordinate = self.resultViewController.coordinate {
-            self.currentTask = api.furtherAction(Latitude: coordinate.latitude, Longitude: coordinate.longitude, place_id: restaurant.place_id!, food_id: food.id!, action: state) {restaurant,food in
+            api.furtherAction(Latitude: coordinate.latitude, Longitude: coordinate.longitude, place_id: restaurant.place_id!, food_id: food.id!, action: state) {restaurant,food in
                 SVProgressHUD.dismiss()
                 
-                DispatchQueue.main.sync {
-                
-                    switch(state) {
-                    case .go:
-                        self.resultViewController.direction()
-                        break
-                    default:
-                        
-                        self.resultViewController.restaurant = restaurant
-                        self.resultViewController.food = food
-                        self.showResult()
-                        break
-                    }
+                switch(state) {
+                case .go:
+                    self.resultViewController.direction()
+                    break
+                default:
+                    
+                    self.resultViewController.restaurant = restaurant
+                    self.resultViewController.food = food
+                    self.showResult()
+                    break
                 }
+            
             }
         }
     }

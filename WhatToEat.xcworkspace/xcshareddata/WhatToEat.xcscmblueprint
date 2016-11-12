@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "19CEBF5DFB379A2A082A0223D8C03E80BF372882",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "19CEBF5DFB379A2A082A0223D8C03E80BF372882" : 9223372036854775807,
+    "9A0F3AE731FCF4DE05ECE2F3A084782104C3011E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C8172934-3766-4DEC-B73D-F7EC9CB6F902",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "19CEBF5DFB379A2A082A0223D8C03E80BF372882" : "WhatToEat\/",
+    "9A0F3AE731FCF4DE05ECE2F3A084782104C3011E" : "WhatToEat\/shakeYourFood\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WhatToEat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WhatToEat.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mosluce\/WhatToEat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "19CEBF5DFB379A2A082A0223D8C03E80BF372882"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JJingLee\/shakeYourFood.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A0F3AE731FCF4DE05ECE2F3A084782104C3011E"
+    }
+  ]
+}
