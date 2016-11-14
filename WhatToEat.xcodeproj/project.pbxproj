@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		4407EFAA1DD40B1500132743 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4407EFA91DD40B1500132743 /* MapKit.framework */; };
 		4407EFAD1DD40B5C00132743 /* IconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFAC1DD40B5C00132743 /* IconLabel.swift */; };
-		4407EFCA1DD45D5E00132743 /* v1API_structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFC61DD45D5E00132743 /* v1API_structs.swift */; };
-		4407EFCB1DD45D5E00132743 /* v1API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFC71DD45D5E00132743 /* v1API.swift */; };
-		4407EFCC1DD45D5E00132743 /* v1API_parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFC81DD45D5E00132743 /* v1API_parsers.swift */; };
-		4407EFCF1DD45D6500132743 /* http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFCD1DD45D6500132743 /* http.swift */; };
 		4407EFD11DD4603700132743 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFD01DD4603700132743 /* ResultViewController.swift */; };
+		447565CF1DD9F56000B7BF30 /* v1API_parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447565CC1DD9F56000B7BF30 /* v1API_parsers.swift */; };
+		447565D01DD9F56000B7BF30 /* v1API_structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447565CD1DD9F56000B7BF30 /* v1API_structs.swift */; };
+		447565D11DD9F56000B7BF30 /* v1API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447565CE1DD9F56000B7BF30 /* v1API.swift */; };
+		447565D31DD9F56F00B7BF30 /* http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447565D21DD9F56F00B7BF30 /* http.swift */; };
 		44873DC01DD40A18007BBBD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44873DBF1DD40A18007BBBD3 /* AppDelegate.swift */; };
 		44873DC21DD40A18007BBBD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44873DC11DD40A18007BBBD3 /* ViewController.swift */; };
 		44873DC51DD40A18007BBBD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44873DC31DD40A18007BBBD3 /* Main.storyboard */; };
@@ -30,11 +30,11 @@
 		4407EFA91DD40B1500132743 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4407EFAC1DD40B5C00132743 /* IconLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconLabel.swift; sourceTree = "<group>"; };
 		4407EFC41DD45CD400132743 /* ShakeYourFoodAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShakeYourFoodAPI.framework; path = "shakeYourFood/build/Debug-iphoneos/ShakeYourFoodAPI.framework"; sourceTree = "<group>"; };
-		4407EFC61DD45D5E00132743 /* v1API_structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API_structs.swift; path = api/v1API_structs.swift; sourceTree = "<group>"; };
-		4407EFC71DD45D5E00132743 /* v1API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API.swift; path = api/v1API.swift; sourceTree = "<group>"; };
-		4407EFC81DD45D5E00132743 /* v1API_parsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API_parsers.swift; path = api/v1API_parsers.swift; sourceTree = "<group>"; };
-		4407EFCD1DD45D6500132743 /* http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = http.swift; path = network/http.swift; sourceTree = "<group>"; };
 		4407EFD01DD4603700132743 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		447565CC1DD9F56000B7BF30 /* v1API_parsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API_parsers.swift; path = api/v1API_parsers.swift; sourceTree = "<group>"; };
+		447565CD1DD9F56000B7BF30 /* v1API_structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API_structs.swift; path = api/v1API_structs.swift; sourceTree = "<group>"; };
+		447565CE1DD9F56000B7BF30 /* v1API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API.swift; path = api/v1API.swift; sourceTree = "<group>"; };
+		447565D21DD9F56F00B7BF30 /* http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = http.swift; path = network/http.swift; sourceTree = "<group>"; };
 		44873DBC1DD40A18007BBBD3 /* WhatToEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44873DBF1DD40A18007BBBD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44873DC11DD40A18007BBBD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,9 +76,9 @@
 		4407EFC91DD45D5E00132743 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				4407EFC61DD45D5E00132743 /* v1API_structs.swift */,
-				4407EFC71DD45D5E00132743 /* v1API.swift */,
-				4407EFC81DD45D5E00132743 /* v1API_parsers.swift */,
+				447565CC1DD9F56000B7BF30 /* v1API_parsers.swift */,
+				447565CD1DD9F56000B7BF30 /* v1API_structs.swift */,
+				447565CE1DD9F56000B7BF30 /* v1API.swift */,
 			);
 			name = API;
 			path = ../shakeYourFood/shakeYourFood;
@@ -87,7 +87,7 @@
 		4407EFCE1DD45D6500132743 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				4407EFCD1DD45D6500132743 /* http.swift */,
+				447565D21DD9F56F00B7BF30 /* http.swift */,
 			);
 			name = Network;
 			path = ../shakeYourFood/shakeYourFood;
@@ -277,16 +277,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				448EEAA21DD47537008B64BE /* FlatButton.swift in Sources */,
+				447565D11DD9F56000B7BF30 /* v1API.swift in Sources */,
 				44873DC21DD40A18007BBBD3 /* ViewController.swift in Sources */,
+				447565D31DD9F56F00B7BF30 /* http.swift in Sources */,
+				447565CF1DD9F56000B7BF30 /* v1API_parsers.swift in Sources */,
 				44BB08C21DD4F5BB004E2069 /* CardView.swift in Sources */,
 				44873DC01DD40A18007BBBD3 /* AppDelegate.swift in Sources */,
-				4407EFCC1DD45D5E00132743 /* v1API_parsers.swift in Sources */,
 				448EEAA41DD4772F008B64BE /* UIView+ext.swift in Sources */,
 				4407EFD11DD4603700132743 /* ResultViewController.swift in Sources */,
-				4407EFCA1DD45D5E00132743 /* v1API_structs.swift in Sources */,
-				4407EFCF1DD45D6500132743 /* http.swift in Sources */,
 				4407EFAD1DD40B5C00132743 /* IconLabel.swift in Sources */,
-				4407EFCB1DD45D5E00132743 /* v1API.swift in Sources */,
+				447565D01DD9F56000B7BF30 /* v1API_structs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
